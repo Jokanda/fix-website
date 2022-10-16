@@ -1,0 +1,76 @@
+/* Start Main Rules */
+
+body {
+    background-color: #bdada5;
+}
+
+.container {
+    width: 940px;
+    margin: 20px auto;
+    background-color: #f2eae8;
+}
+
+/* End Main Rules */
+
+/* Start Header */
+
+header {
+    height: 100px;
+    background-color: #d8c7c4;
+}
+
+header .logo {
+    height: 100px;
+    background-color: #b59488;
+    width: 20%;
+}
+
+header nav {
+    height: 100px;
+    background-color: #e0ded1;
+    width: 80%;
+}
+
+/* End Header */
+
+/* Start Content */
+
+.content {
+    height: 500px;
+    background-color: floralwhite;
+    overflow: hidden;
+}
+
+.content .sidebar {
+    float: right;
+    width: 20%;
+    margin-left: 1%;
+    background-color: #eedccf;
+    height: 500px;
+}
+
+.container .categories {
+    float: left;
+    width: 79%;
+}
+
+/* End Content */
+
+/* Start Footer */
+
+footer {
+    min-height: 100px;
+    background-color: #d8c7c4;
+}
+
+footer .info {
+    height: 100px;
+    background-color: #b59488;
+}
+
+footer .copyright {
+    height: 40px;
+    background-color: #814c4f;
+}
+
+/* End Footer */

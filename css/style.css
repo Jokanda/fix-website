@@ -2,6 +2,7 @@
 
 body {
     background-color: #bdada5;
+    direction: rtl;
 }
 
 .container {
@@ -15,19 +16,20 @@ body {
 /* Start Header */
 
 header {
-    height: 100px;
+    min-height: 100px;
     background-color: #d8c7c4;
 }
 
 header .logo {
-    height: 100px;
-    background-color: #b59488;
     width: 20%;
 }
 
+header .logo img {
+    width: 100px;
+    margin: 20px 20px 20px 0;
+}
+
 header nav {
-    height: 100px;
-    background-color: #e0ded1;
     width: 80%;
 }
 

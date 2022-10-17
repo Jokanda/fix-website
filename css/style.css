@@ -11,17 +11,25 @@ body {
     background-color: #f2eae8;
 }
 
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 /* End Main Rules */
 
 /* Start Header */
 
 header {
     min-height: 100px;
-    background-color: #d8c7c4;
+    background-color: #eedccf;
+    overflow: hidden;
 }
 
 header .logo {
     width: 20%;
+    float: right;
 }
 
 header .logo img {
@@ -31,6 +39,13 @@ header .logo img {
 
 header nav {
     width: 80%;
+    float: left;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
 }
 
 /* End Header */
@@ -47,7 +62,7 @@ header nav {
     float: right;
     width: 20%;
     margin-left: 1%;
-    background-color: #eedccf;
+    background-color: #d8c7c4;
     height: 500px;
 }
 

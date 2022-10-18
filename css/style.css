@@ -44,7 +44,9 @@ header nav {
 
 header nav ul {
     margin: 50px 50px 0 0;
-    font-size: 20px;
+    font-size: 17px;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-weight: bold;
 }
 
 header nav ul li {
@@ -65,15 +67,20 @@ header nav ul li {
 
 .content .sidebar {
     float: right;
-    width: 20%;
+    width: 25%;
     margin-left: 1%;
-    background-color: #d8c7c4;
     height: 500px;
+}
+
+.content .sidebar .segment {
+    width: 90%;
+    background-color: #d8c7c4;
+    border: 1px solid #bdada5;
 }
 
 .container .categories {
     float: left;
-    width: 79%;
+    width: 74%;
 }
 
 /* End Content */

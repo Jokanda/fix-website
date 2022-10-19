@@ -2,6 +2,7 @@
 
 body {
     background-color: #bdada5;
+    font-family: 'Noto Kufi Arabic', sans-serif;
     direction: rtl;
 }
 
@@ -45,7 +46,6 @@ header nav {
 header nav ul {
     margin: 50px 50px 0 0;
     font-size: 17px;
-    font-family: 'Noto Kufi Arabic', sans-serif;
     font-weight: bold;
 }
 
@@ -74,8 +74,19 @@ header nav ul li {
 
 .content .sidebar .segment {
     width: 90%;
-    background-color: #d8c7c4;
     border: 1px solid #bdada5;
+    margin: 10px auto;
+}
+
+.content .sidebar .segment .title {
+    background-color: #d8c7c4;
+    color: black;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.content .sidebar .segment .data ul li {
+    padding-right: 10px;
 }
 
 .container .categories {

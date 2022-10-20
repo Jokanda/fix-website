@@ -60,7 +60,7 @@ header nav ul li {
 /* Start Content */
 
 .content {
-    height: 500px;
+    min-height: 500px;
     background-color: floralwhite;
     overflow: hidden;
 }
@@ -89,9 +89,20 @@ header nav ul li {
     padding-right: 10px;
 }
 
-.container .categories {
+.content .categories {
     float: left;
     width: 74%;
+}
+
+.content .categories .category {
+    width: 25%;
+    float: right;
+    background-color: #d8c7c4;
+    text-align: center;
+}
+
+.content .categories .category img {
+    max-width: 100%;
 }
 
 /* End Content */

@@ -85,17 +85,33 @@ header nav ul li {
     text-align: center;
 }
 
+.content .sidebar .segment .data ul {
+    text-align: right;
+}
+
 .content .sidebar .segment .data ul li {
     padding-right: 10px;
+}
+
+.content .sidebar .segment .data {
+    text-align: center;
+}
+
+.content .sidebar .segment .data img {
+    max-width: 90%;
+    margin: 10px auto;
 }
 
 .content .categories {
     float: left;
     width: 74%;
+    padding: 0 0 20px 0;
 }
 
 .content .categories .category {
-    width: 25%;
+    width: 22%;
+    margin-left: 3%;
+    margin-top: 20px;
     float: right;
     background-color: #d8c7c4;
     text-align: center;
@@ -117,6 +133,7 @@ footer {
 footer .info {
     height: 100px;
     background-color: #b59488;
+    padding: 5px 0;
 }
 
 footer .copyright {

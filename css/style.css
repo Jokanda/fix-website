@@ -74,6 +74,12 @@ header nav {
     float: left;
 }
 
+@media (max-width: 767px) {
+    header nav {
+        margin: auto;
+    }
+}
+
 header nav ul {
     margin: 50px 50px 0 0;
     font-size: 17px;
@@ -84,6 +90,14 @@ header nav ul li {
     display: inline-block;
     padding: 10px;
     margin: 5px;
+}
+
+@media (max-width: 767px) {
+    header nav > li > a {
+        padding: 10px;
+        font-size: 14px;
+        height: 40px;
+    }
 }
 
 /* End Header */

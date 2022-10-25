@@ -6,6 +6,11 @@ body {
     direction: rtl;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .container {
     width: 940px;
     margin: 20px auto;
